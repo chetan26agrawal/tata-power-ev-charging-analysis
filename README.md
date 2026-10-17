@@ -1,24 +1,18 @@
 
 # ⚡ Tata Power EV Charging Infrastructure Analysis
 
-An Excel-based data analytics project focused on EV charging demand, station utilization, customer behavior, financial performance, and infrastructure expansion opportunities.
+An end-to-end Excel data analytics project analyzing EV charging demand, station utilization, customer behavior, financial performance, and infrastructure expansion opportunities.
 
 ## 📑 Table of Contents
 
 - [Project Overview](#-project-overview)
 - [Business Problem](#-business-problem)
-- [Project Scope](#-project-scope)
 - [Dashboard Gallery](#-dashboard-gallery)
-  - [Dashboard 1: Business & Usage Overview](#-dashboard-1--business--usage-overview)
-  - [Dashboard 2: Station Utilization](#-dashboard-2--station-utilization--operational-efficiency)
-  - [Dashboard 3: Customer & Demand Behavior](#-dashboard-3--customer--demand-behavior)
-  - [Dashboard 4: Financial Performance](#-dashboard-4--financial-performance--expansion-strategy)
-- [Tools & Technologies](#-tools--technologies)
-- [Key Project Metrics](#-key-project-metrics)
+- [Tools and Technologies](#-tools-and-technologies)
+- [Key Metrics](#-key-metrics)
 - [Key Insights](#-key-insights)
 - [Business Impact](#-business-impact)
-- [Project Outcome](#-project-outcome)
-- [Key Skills Demonstrated](#-key-skills-demonstrated)
+- [Key Skills](#-key-skills)
 - [Repository Structure](#-repository-structure)
 - [Author](#-author)
 
@@ -26,114 +20,96 @@ An Excel-based data analytics project focused on EV charging demand, station uti
 
 ## 📌 Project Overview
 
-This project analyzes Tata Power's EV charging infrastructure to understand charging demand, station utilization, customer usage patterns, revenue generation, and financial performance.
+This project analyzes Tata Power's EV charging infrastructure to understand charging demand, station utilization, customer behavior, revenue generation, and financial performance.
 
-The project includes four dashboards covering business performance, operational efficiency, customer behavior, and financial planning.
+The project contains four dashboard areas designed to support data-driven business decisions and EV charging infrastructure planning.
 
 ## 🎯 Business Problem
 
-The project explores the following business questions:
+The analysis focuses on the following questions:
 
 - How is EV charging demand changing over time?
 - Which charging stations are highly utilized or underutilized?
 - How efficiently are charging plugs being used?
 - What are the charging patterns of different customer segments?
-- Which districts may offer better financial returns?
-- Where could new EV charging stations be established?
-- Is the existing charging infrastructure sufficient for projected EV demand?
-
-## 📊 Project Scope
-
-The analysis supports business decisions related to:
-
-- Senior management and business strategy
-- Charging station operations
-- Customer behavior and segmentation
-- Financial planning and investment
-- Infrastructure expansion
+- Which districts may offer better investment opportunities?
+- Where could additional EV charging stations be required?
+- How can charging infrastructure and financial returns be optimized?
 
 ---
 
-## 🖼️ Dashboard Gallery
+## 📊 Dashboard Gallery
 
-**[📂 Click here to explore all dashboard files on GitHub](https://github.com/chetan26agrawal/tata-power-ev-charging-analysis/tree/main/Tata%20Power%20Dashboard)**
+### 1. Business & Usage Overview
 
-> Note: The individual dashboard image filenames have not yet been verified. The links below open the existing dashboard folder to avoid broken image links.
+![Dashboard 1 - Business and Usage Overview](Tata%20Power%20Dashboard/Screenshots/Page_1_Business_Usage_Overview.png)
 
-### 📊 Dashboard 1 — Business & Usage Overview
+**[View Dashboard 1 on GitHub](https://github.com/chetan26agrawal/tata-power-ev-charging-analysis/tree/main/Tata%20Power%20Dashboard)**
 
-**[➡️ Open Dashboard Files on GitHub](https://github.com/chetan26agrawal/tata-power-ev-charging-analysis/tree/main/Tata%20Power%20Dashboard)**
+**Objective:** Analyze charging demand, energy consumption, revenue, and customer activity.
 
-**Objective:** Analyze charging demand, energy consumption, revenue generation, and customer activity.
-
-**Key KPIs:**
+**Key KPIs**
 - Total charging sessions
-- Total energy consumed (kWh)
+- Total energy consumed
 - Total revenue
 - Active customers
 - Average revenue per session
-- Average energy consumption per session
+- Average energy consumed per session
 
-**Business Value:** Provides an overview of charging network performance and usage trends.
+### 2. Station Utilization & Operational Efficiency
 
-### ⚙️ Dashboard 2 — Station Utilization & Operational Efficiency
+![Dashboard 2 - Station Utilization](Tata%20Power%20Dashboard/Screenshots/Page_2_Station_Utilization.png)
 
-**[➡️ Open Dashboard Files on GitHub](https://github.com/chetan26agrawal/tata-power-ev-charging-analysis/tree/main/Tata%20Power%20Dashboard)**
+**[View Dashboard 2 on GitHub](https://github.com/chetan26agrawal/tata-power-ev-charging-analysis/tree/main/Tata%20Power%20Dashboard)**
 
-**Objective:** Evaluate station performance and compare infrastructure utilization across districts.
+**Objective:** Evaluate station performance and charging infrastructure utilization.
 
-**Key KPIs:**
+**Key KPIs**
 - Sessions per station
-- Average station utilization
-- Total charging plugs
-- Plug utilization
-- Average energy delivered per station
-- District-wise station distribution
+- Station utilization
+- Charging plugs
 - Sessions per plug
+- District-wise station distribution
+- Energy delivered per station
 
-**Business Value:** Helps identify underutilized stations, capacity constraints, and opportunities to improve operational efficiency.
+### 3. Customer & Demand Behavior
 
-### 👥 Dashboard 3 — Customer & Demand Behavior
+![Dashboard 3 - Customer and Demand Behavior](Tata%20Power%20Dashboard/Screenshots/Page_3_Customer_Demand_Behavior.png)
 
-**[➡️ Open Dashboard Files on GitHub](https://github.com/chetan26agrawal/tata-power-ev-charging-analysis/tree/main/Tata%20Power%20Dashboard)**
+**[View Dashboard 3 on GitHub](https://github.com/chetan26agrawal/tata-power-ev-charging-analysis/tree/main/Tata%20Power%20Dashboard)**
 
-**Objective:** Understand customer charging patterns, customer segments, income tiers, EV models, and battery capacities.
+**Objective:** Understand customer charging patterns and demand across customer segments.
 
-**Key KPIs:**
+**Key KPIs**
 - Unique customers
 - Sessions per customer
-- Average energy consumed per customer
+- Energy consumed per customer
 - Revenue per customer
 - Usage by income tier
 - Usage by EV model
 - Usage by battery capacity
 
-**Business Value:** Supports customer segmentation and a better understanding of charging behavior.
+### 4. Financial Performance & Expansion Strategy
 
-### 💰 Dashboard 4 — Financial Performance & Expansion Strategy
+![Dashboard 4 - Financial Performance](Tata%20Power%20Dashboard/Screenshots/Page_4_Financial_Performance.png)
 
-**[➡️ Open Dashboard Files on GitHub](https://github.com/chetan26agrawal/tata-power-ev-charging-analysis/tree/main/Tata%20Power%20Dashboard)**
+**[View Dashboard 4 on GitHub](https://github.com/chetan26agrawal/tata-power-ev-charging-analysis/tree/main/Tata%20Power%20Dashboard)**
 
-**Objective:** Evaluate investment requirements, profitability, payback periods, ROI, and future expansion opportunities.
+**Objective:** Evaluate investment requirements, profitability, ROI, payback periods, and expansion opportunities.
 
-**Key KPIs:**
-- Project CAPEX
-- Annual revenue
-- EBITDA
-- Payback period with subsidy
-- Payback period without subsidy
+**Key KPIs**
+- Capital expenditure (CAPEX)
+- Revenue and EBITDA
+- Payback period
 - Five-year ROI
-- Existing charging stations
 - Projected EV demand
 - Required charging plugs
 - Demand-supply gap
-- Expansion priority
-
-**Business Value:** Helps prioritize infrastructure investments and identify districts where additional charging capacity may be needed.
+- Expansion priorities
 
 ---
 
-## 🛠️ Tools & Technologies
+## 🛠️ Tools and Technologies
 
 - Microsoft Excel
 - Data cleaning and transformation
@@ -143,7 +119,7 @@ The analysis supports business decisions related to:
 - Data visualization
 - Financial and ROI analysis
 
-## 📈 Key Project Metrics
+## 📈 Key Metrics
 
 The project documentation reports the following metrics:
 
@@ -157,67 +133,59 @@ The project documentation reports the following metrics:
 
 ## 💡 Key Insights
 
-The analysis explores:
+The project examines:
 
 - Charging demand and usage trends
-- Station-level utilization and performance
+- Station utilization and operational efficiency
 - Customer charging behavior
 - Revenue and energy consumption
-- District-level infrastructure capacity
-- Project profitability and investment returns
-- EV demand versus available charging capacity
+- District-level infrastructure requirements
+- Investment returns and profitability
+- EV demand versus charging capacity
 - Potential infrastructure expansion opportunities
 
 ## 💼 Business Impact
 
-The dashboards support decisions related to:
+The dashboards can support decisions related to:
 
-- EV charging station expansion
+- Charging station expansion
 - Infrastructure investment planning
 - Station capacity optimization
 - Customer segmentation
-- Revenue and pricing analysis
+- Revenue analysis
 - Operational efficiency
 - District-level prioritization
 - Financial feasibility and ROI
 
 ## 🚀 Project Outcome
 
-Developed a four-part Excel dashboard analysis combining operational, customer, demand, and financial perspectives.
+Developed a four-part dashboard analysis combining business performance, station utilization, customer behavior, and financial planning to support data-driven EV charging infrastructure decisions.
 
-The project demonstrates how data analytics can support station utilization, investment evaluation, and future EV charging infrastructure planning.
-
-## 📚 Key Skills Demonstrated
+## 📚 Key Skills
 
 **Data Analytics**
 - Data cleaning and transformation
 - Exploratory data analysis
-- Business analysis
 - KPI and trend analysis
 - Customer segmentation
-- Operational analysis
+- Business analysis
 
 **Excel**
-- Advanced Excel
 - PivotTables and formulas
 - Dashboard development
 - Data visualization
-- KPI development
 - Interactive reporting
 
 **Financial Analytics**
-- CAPEX analysis
-- Revenue and EBITDA analysis
+- CAPEX and EBITDA analysis
 - ROI and payback period analysis
-- Investment analysis
+- Investment evaluation
 - Demand-supply analysis
 
 **EV Infrastructure Analytics**
 - Charging demand analysis
 - Station and plug utilization
-- District-level analysis
 - Customer charging behavior
-- EV demand forecasting
 - Infrastructure expansion analysis
 
 ## 📂 Repository Structure
@@ -225,22 +193,20 @@ The project demonstrates how data analytics can support station utilization, inv
 ```text
 tata-power-ev-charging-analysis/
 ├── Tata Power Dashboard/
-│   └── Dashboard files
+│   └── Screenshots/
+│       ├── Page_1_Business_Usage_Overview.png
+│       ├── Page_2_Station_Utilization.png
+│       ├── Page_3_Customer_Demand_Behavior.png
+│       └── Page_4_Financial_Performance.png
 ├── Tata_Milestone_Project_By_Chetan_Agrawal.pdf
 └── README.md
 ```
-
-**[📂 Browse the Tata Power Dashboard folder](https://github.com/chetan26agrawal/tata-power-ev-charging-analysis/tree/main/Tata%20Power%20Dashboard)**
 
 ## 👤 Author
 
 **Chetan Agrawal**
 
 Data Analyst | Excel | SQL | Power BI | Python
-
-## 🏷️ Project Type
-
-Data Analytics | Excel Dashboard | EV Infrastructure Analytics | Financial Analysis
 
 ---
 
